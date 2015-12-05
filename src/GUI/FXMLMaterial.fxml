@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Material" />
+      <ChoiceBox fx:id="materialChoice" layoutX="92.0" layoutY="8.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="81.0" prefHeight="27.0" prefWidth="54.0" text="Diffuse" />
+      <TextField fx:id="diffuseR" layoutX="107.0" layoutY="75.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <Label layoutX="87.0" layoutY="81.0" text="R" />
+      <Label layoutX="167.0" layoutY="81.0" text="G" />
+      <TextField fx:id="diffuseG" layoutX="187.0" layoutY="75.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <Label layoutX="257.0" layoutY="81.0" text="B" />
+      <TextField fx:id="diffuseB" layoutX="277.0" layoutY="75.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <TextField fx:id="specularB" layoutX="278.0" layoutY="123.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <Label layoutX="258.0" layoutY="129.0" text="B" />
+      <TextField fx:id="specularG" layoutX="188.0" layoutY="123.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <Label layoutX="168.0" layoutY="129.0" text="G" />
+      <Label layoutX="88.0" layoutY="129.0" text="R" />
+      <TextField fx:id="specularR" layoutX="108.0" layoutY="123.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <Label layoutX="15.0" layoutY="129.0" prefHeight="27.0" prefWidth="72.0" text="Specular" />
+      <Label layoutX="400.0" layoutY="81.0" text="Exponent" />
+      <TextField fx:id="exponent" layoutX="487.0" layoutY="75.0" prefHeight="39.0" prefWidth="54.0" text="2" />
+      <Label layoutX="16.0" layoutY="199.0" prefHeight="27.0" prefWidth="72.0" text="Reflection" />
+      <TextField fx:id="reflectR" layoutX="109.0" layoutY="193.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <Label layoutX="89.0" layoutY="199.0" text="R" />
+      <Label layoutX="169.0" layoutY="199.0" text="G" />
+      <TextField fx:id="reflectG" layoutX="189.0" layoutY="193.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <Label layoutX="259.0" layoutY="199.0" text="B" />
+      <TextField fx:id="reflectB" layoutX="279.0" layoutY="193.0" prefHeight="39.0" prefWidth="54.0" text="0.0" />
+      <TextField fx:id="refraction" layoutX="109.0" layoutY="275.0" prefHeight="39.0" prefWidth="54.0" text="2" />
+      <Label layoutX="16.0" layoutY="281.0" text="Refraction" />
+      <Button fx:id="addMaterial" layoutX="507.0" layoutY="347.0" mnemonicParsing="false" text="Use" />
+   </children>
+</AnchorPane>

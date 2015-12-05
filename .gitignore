@@ -1,0 +1,10 @@
+.idea
+out
+raytracer.iml
+.DS_Store
+nbproject
+build.xml
+build
+manifest.mf
+bufferedImage.png
+*.log
